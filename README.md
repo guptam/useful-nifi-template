@@ -7,6 +7,7 @@ Before running/scheduling this flow:
 * Do Azure login with Oauth "az login"
 
 Notes:
+- Filename: Azure-Resources-Monitor-Alert.xml
 - This will work only on windows. For Linux, change cmd to sh.
 - Will generate report for one subscription only.
 - Instead of sending an email, you can maintain entire log in a datastore.
