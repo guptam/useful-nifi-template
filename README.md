@@ -2,11 +2,14 @@
 Useful NiFi Templates
 
 ## 1. Azure Resource Monitoring using NiFi
+This will create a flow that periodically fetches details of all your Azure Resources (within your subscription), and sends and out an email. For VMs, it also identifies their Power State. Can be used for monitoring, mainitaining a log of all your usage, advance alerting, or any other use case you can think of (maintenance, cost control etc.).
+
+#### Instructions:
 Before running/scheduling this flow:
 * Install Azure CLI
 * Do Azure login with Oauth "az login"
 
-Notes:
+#### Notes:
 - Filename: Azure-Resources-Monitor-Alert.xml
 - This will work only on windows. For Linux, change cmd to sh.
 - Will generate report for one subscription only.
